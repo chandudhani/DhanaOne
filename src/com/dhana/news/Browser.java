@@ -33,6 +33,11 @@ public class Browser {
         } else {
             System.out.println("Test Failed");
         }
+        if (actualTitle.contentEquals(expectedTitle)){
+            System.out.println("Test Passed!");
+        } else {
+            System.out.println("Test Failed");
+        }
        
         //close Fire fox
         driver.close();
